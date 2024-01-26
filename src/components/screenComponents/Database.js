@@ -39,8 +39,8 @@ export const videoData = [
 
 export const FriendsProfileData =[
     {
-        name: 'user_1',
-        accountName:'User 1',
+        name: 'nhat_tuan',
+        accountName:'Nhật Tuấn',
         profileImage: require('../../storage/images/image1.jpg'),
         post: 56,
         followers: 3680,
