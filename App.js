@@ -22,6 +22,8 @@ import Profile from './src/components/screens/Profile';
 import Reels from './src/components/screens/Reels';
 import Search from './src/components/screens/Search';
 import Status from './src/components/screenComponents/Status';
+import FriendProfile from './src/components/screenComponents/FriendProfile';
+
 
 const App = () => {
 
@@ -75,6 +77,7 @@ const BottomTabScreen = () => {
       }}>
         <Stack.Screen name="Bottom" component={BottomTabScreen}/>
         <Stack.Screen name="Status" component={Status}/>
+        <Stack.Screen name="FriendProfile" component={FriendProfile}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
