@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { FriendsProfileData } from '../screenComponents/Database';
 import Ionics from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
+import BottomTabView from '../screenComponents/BottomTabView';
 
 const Profile = () => {
 
@@ -72,7 +73,7 @@ const Profile = () => {
           }
         </ScrollView>
       </View>
-      
+      <BottomTabView/>
     </SafeAreaView>
   );
 }
