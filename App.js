@@ -22,6 +22,7 @@ import Profile from './src/components/screens/Profile';
 import Reels from './src/components/screens/Reels';
 import Search from './src/components/screens/Search';
 import Status from './src/components/screenComponents/Status';
+import SplashScreen from './src/components/screens/SplashScreen';
 
 const App = () => {
 
@@ -72,7 +73,10 @@ const App = () => {
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
-        }}>
+        }}
+        initialRouteName="SplashScreen"
+        headerMode="none">
+        <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="Bottom" component={BottomTabScreen} />
         <Stack.Screen name="Status" component={Status} />
       </Stack.Navigator>

@@ -13,7 +13,7 @@ const Profile = () => {
       <View>
         {FriendsProfileData.slice(0, 1).map((data, index) => {
           return (
-            <View>
+            <View key={index}>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                 <TouchableOpacity style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center', paddingLeft: 5 }}>
                   <Text style={{ fontSize: 25, fontWeight: 'bold', paddingHorizontal: 5, paddingVertical: 10 }}>{data.name}</Text>
@@ -63,7 +63,7 @@ const Profile = () => {
           {
             FriendsProfileData.slice(1, 9).map((data, index) => {
               return (
-                <View style={{ flexDirection: 'column', paddingHorizontal: 8, position: 'relative' }}>
+                <View key={index} style={{ flexDirection: 'column', paddingHorizontal: 8, position: 'relative' }}>
                   <View style={{ width: 68, height: 68, backgroundColor: 'white', borderWidth: 1.8, borderRadius: 100, borderColor: '#c13584', justifyContent: 'center', alignItems: 'center' }}>
                     <Image source={data.profileImage} style={{ resizeMode: 'cover', width: '92%', height: '92%', borderRadius: 100 }} />
                   </View>
