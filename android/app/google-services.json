@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547169956295",
+    "project_id": "ig-clone-60b8f",
+    "storage_bucket": "ig-clone-60b8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547169956295:android:d01f09feb3fc265fe3a9e2",
+        "android_client_info": {
+          "package_name": "com.reactnativeproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV6TDYnZx_PAhMuDHXGFw7qKdmNsJjxlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
